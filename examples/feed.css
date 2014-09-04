@@ -30,7 +30,7 @@ body {
         Sidebar
 --------------------*/
 
-#feed .sidebar {
+#king_julien .sidebar {
   overflow: visible;
 }
 
@@ -38,11 +38,11 @@ body {
         Grid
 --------------------*/
 
-#feed .grid {
+#king_julien .grid {
   height: 100%;
 }
 
-#feed > .grid > .column {
+#king_julien > .grid > .column {
   height: 100%;
 }
 
@@ -50,37 +50,37 @@ body {
        Inbox
 --------------------*/
 
-#feed .inbox.tab {
+#king_julien .inbox.tab {
   background-color: #FFFFFF;
 }
 
-#feed .inbox.tab .item {
+#king_julien .inbox.tab .item {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-#feed .inbox.tab .item .rating {
+#king_julien .inbox.tab .item .rating {
   margin-top: 0.2rem;
 }
 
-#feed .inbox.tab .item .description {
+#king_julien .inbox.tab .item .description {
   margin-left: 2em;
 }
 
-#feed .page {
+#king_julien .page {
   float: right;
   margin-top: 0.9em;
 }
 
-#feed .middle.column {
+#king_julien .middle.column {
   padding: 1em 2em;
 }
 
-#feed .middle.column h2 {
+#king_julien .middle.column h2 {
   margin-top: 0em;
 }
 /*rtl:ignore*/
-#feed .right.column {
+#king_julien .right.column {
   padding: 1em 2em;
   background-color: #FAFAFA;
 }
@@ -90,7 +90,7 @@ body {
 *******************************/
 
 @media only screen and (max-width : 1000px) {
-  #feed .inbox .date {
+  #king_julien .inbox .date {
     float: none;
     margin-bottom: 0.5em;
   }
@@ -98,7 +98,7 @@ body {
 
 @media only screen and (max-width : 1250px) {
   /*rtl:ignore*/
-  #feed .left.column > .menu .item {
+  #king_julien .left.column > .menu .item {
     font-size: 1rem;
   }
 }

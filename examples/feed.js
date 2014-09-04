@@ -11,7 +11,7 @@ $(document)
       })
     ;
 
-    $('.ui.sidebarr')
+    $('.ui.sidebar')
       .sidebar('attach events', '.launch.button')
     ;
 
