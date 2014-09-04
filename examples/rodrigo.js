@@ -7,5 +7,11 @@ $(document)
       })
     ;
 
+	$('.ui.slide')
+      .slide({
+        on: 'hover'
+      })
+    ;
+
   })
 ;
