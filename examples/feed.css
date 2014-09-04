@@ -1,75 +1,72 @@
 /*******************************
-        Global - ewalex
+        Global - ewalex with Hotdog
 *******************************/
 
 html,
 body {
   font-size: 15px;
   height: 100%;
+  padding: 5px;
+  position: absolute;
+  background: #FDFDFD;
 }
 
 body {
   font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   background: #FFFFFF;
-  margin: 0px;
-  padding: 0px;
-  color: #555555;
-  text-rendering: optimizeLegibility;
-  min-width: 320px;
+  margin: 0px 20 0px 5px;
+  color: #336633;
+  width: 320px;
 }
 
-.ui.header {
-  font-family: 'Source Sans Pro', "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+.ui.footer {
+  font-family: 'Comic Sans Pro', "Georgia", sans-serif;
 }
-
-/*******************************
-            Global
-*******************************/
-
-/*-------------------
-        Sidebar
---------------------*/
 
 #feed .sidebar {
   overflow: visible;
 }
 
 /*-------------------
-        Grid
+       CX.Entrada
 --------------------*/
 
-#feed .grid {
-  height: 100%;
+#feed .CX.Entrada.tab {
+  left: 40px;
+  backgroud: #F0C;
+  border: none;
 }
 
-#feed > .grid > .column {
-  height: 100%;
+#feed .CX.Entrada.tab :link, :visited {
+  background-color: #F0CFCF;
+  left: 40px;
+  backgroud: #F0C;
+  border: none;
 }
 
-/*-------------------
-       Inbox
---------------------*/
-
-#feed .inbox.tab {
-  background-color: #FFFFFF;
+#feed .CX.Entrada.tab :hover {
+  background-color: #FDD;
+  left: 40px;
+  backgroud: #F0C;
+  border: none;
 }
 
-#feed .inbox.tab .item {
+#feed .CX.Entrada.tab .item {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-#feed .inbox.tab .item .rating {
+#feed .CX.Entrada.tab .item .rating {
   margin-top: 0.2rem;
 }
 
-#feed .inbox.tab .item .description {
+#feed .CX.Entrada.tab .item .description {
   margin-left: 2em;
 }
 
 #feed .page {
   float: right;
-  margin-top: 0.9em;
+  margin-top: 0.6em;
 }
 
 #feed .middle.column {
@@ -83,22 +80,4 @@ body {
 #feed .right.column {
   padding: 1em 2em;
   background-color: #FAFAFA;
-}
-
-/*******************************
-          Responsive
-*******************************/
-
-@media only screen and (max-width : 1000px) {
-  #feed .inbox .date {
-    float: none;
-    margin-bottom: 0.5em;
-  }
-}
-
-@media only screen and (max-width : 1250px) {
-  /*rtl:ignore*/
-  #feed .left.column > .menu .item {
-    font-size: 1rem;
-  }
 }
