@@ -1,104 +1,66 @@
 /*******************************
-            Hotdog
+        Global - ewalex with Hotdog
 *******************************/
 
 html,
 body {
   font-size: 15px;
   height: 100%;
+  padding: 5px;
+  position: absolute;
+  background: #FDFDFD;
 }
 
 body {
   font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   background: #FFFFFF;
-  margin: 0px;
-  padding: 0px;
-  color: #555555;
-  text-rendering: optimizeLegibility;
-  min-width: 320px;
+  margin: 0px 20 0px 5px;
+  color: #336633;
+  width: 320px;
 }
 
-.ui.header {
-  font-family: 'Source Sans Pro', "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+.ui.footer {
+  font-family: 'Comic Sans Pro', "Georgia", sans-serif;
 }
-
-/*******************************
-            Hotdog
-*******************************/
-
-/*-------------------
-        Sidebar
---------------------*/
 
 #king_julien .sidebar {
   overflow: visible;
 }
 
 /*-------------------
-        Grid
 --------------------*/
 
-#king_julien .grid {
-  height: 100%;
 }
 
-#king_julien > .grid > .column {
-  height: 100%;
 }
 
-/*-------------------
-       Inbox
---------------------*/
-
-#king_julien .inbox.tab {
-  background-color: #FFFFFF;
+#feed .CX.Entrada.tab :hover {
+  background-color: #FDD;
+  left: 40px;
+  backgroud: #F0C;
+  border: none;
 }
 
-#king_julien .inbox.tab .item {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-#king_julien .inbox.tab .item .rating {
   margin-top: 0.2rem;
 }
 
-#king_julien .inbox.tab .item .description {
   margin-left: 2em;
 }
 
 #king_julien .page {
   float: right;
-  margin-top: 0.9em;
 }
 
-#king_julien .middle.column {
   padding: 1em 2em;
 }
 
-#king_julien .middle.column h2 {
   margin-top: 0em;
 }
 /*rtl:ignore*/
-#king_julien .right.column {
   padding: 1em 2em;
   background-color: #FAFAFA;
-}
-
-/*******************************
-          Responsive
-*******************************/
-
-@media only screen and (max-width : 1000px) {
-  #king_julien .inbox .date {
-    float: none;
-    margin-bottom: 0.5em;
-  }
-}
-
-@media only screen and (max-width : 1250px) {
-  /*rtl:ignore*/
-  #king_julien .left.column > .menu .item {
-    font-size: 1rem;
-  }
 }
